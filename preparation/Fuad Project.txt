@@ -1,0 +1,28 @@
+Sistem Manajemen HospitalAppointment
+
+# Frontend : Vue JS, Inertia JS, TailwindCSS
+Backend : Laravel
+Database MySQL
+
+Pemahaman Aplikasi berdasarkan ERD :
+1. Patien mempunyai banyak Medical History
+2. Patient bisa melihat medical history masing-masing
+3. Dokter juga bisa melihat Medical History Patient, jika Patient mengajukan Appointment terhadap Patient tertentu
+4. Dokter bisa langsung menawarkan diagnosa penyakit dan juga menentukan jadwal untuk bertemu, jika Patient sudah mengajukan Appointment
+5. Pasien bisa melihat jadwal dokter yang sedang luang lalu bisa menanyakan tentang diagnosa pasien dengan syarat Patient harus sudah memesan Appointment terhadap Doctor, dan tidak  lupa menentukan jadwal pertemuan
+6. Lalu hasil dari pertemuan berupa symptomps dan concerns
+
+Pemahaman Database : 
+- Doctor di tabel User //
+- Patient di tabel User  //
+- Schedule //
+- MedicalHistory // Patient one to many MedicalHistory //
+- Appointment //
+- Doctor_Schedule // Doctor many to many Schedule //
+- Diagnose //
+- Doctor_MedicalHistory // Doctor many to many MedicalHistory //(CanViewOnly)
+- Complaint //
+
+- Appointment (made when Doctor have free schedule, and Patient add to it)
+- Diagnose (made by Doctor after seeing MedicalHistory and Complaint of Patient or after Appointment)
+- Complaint (made by Patient and when Patient has any complaint, Appointment must be made first, before or after Appointment)
