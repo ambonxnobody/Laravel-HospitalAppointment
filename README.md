@@ -49,7 +49,7 @@ DB_USERNAME=XXXX
 DB_PASSWORD=XXXXX
 ```
 
-**Remember**: Create the database for GitScrum before run artisan command.
+**Remember**: Create the database for HospitalAppointment before run artisan command.
 
 ```
 php artisan migrate --seed
