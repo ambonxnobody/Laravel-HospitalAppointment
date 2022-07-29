@@ -1,6 +1,6 @@
 ## Laravel - Hospital Appointment Open Source - Installation
 
-The requirements to Laravel HospitalAppointment application is:
+The requirements to Laravel-HospitalAppointment application is:
 
 - **PHP - Supported Versions**: >= 8.0
 - **Webserver**: Nginx or Apache
