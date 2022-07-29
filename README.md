@@ -1,4 +1,4 @@
-## HospitalAppointment Open Source - Installation
+## Laravel - Hospital Appointment Open Source - Installation
 
 The requirements to Laravel HospitalAppointment application is:
 
@@ -9,8 +9,8 @@ The requirements to Laravel HospitalAppointment application is:
 ### Git Clone
 
 ```
-$ git clone https://github.com/ambonxnobody/HospitalAppointment.git
-$ cd HospitalAppointment
+$ git clone https://github.com/ambonxnobody/Laravel-HospitalAppointment.git
+$ cd Laravel-HospitalAppointment-main
 ```
 
 ## Setup
@@ -49,14 +49,14 @@ DB_USERNAME=XXXX
 DB_PASSWORD=XXXXX
 ```
 
-**Remember**: Create the database for HospitalAppointment before run artisan command.
+**Remember**: Create the database for Laravel-HospitalAppointment before run artisan command.
 
 ```
 php artisan migrate --seed
 ```
 
 ```
-Application name: HospitalAppointment
+Application name: Laravel-HospitalAppointment
 Homepage URL: URL (Same as APP_URL at .env)
 ```
 
